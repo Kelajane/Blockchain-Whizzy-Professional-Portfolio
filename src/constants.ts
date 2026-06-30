@@ -1,7 +1,7 @@
 import { Project, Experience, Skill, SocialLink, Certification } from "./types";
 
 export const PERSONAL_INFO = {
-  name: "David Ajaraogu Chinonyerem",
+  name: "David Anthony Chinonyerem",
   nickname: "Blockchain Whizzy",
   roles: ["Frontend Developer", "Graphics Designer", "Blockchain Enthusiast", "IT Technician"],
   about: "I am a multi-disciplinary professional with a passion for building decentralized solutions and crafting visually stunning digital experiences. With a background in Frontend Development and Graphics Design, I bridge the gap between aesthetics and functionality. My journey in the blockchain space has fueled my commitment to the future of Web3, while my technical expertise as an IT Technician ensures a solid foundation for all my digital endeavors.",
@@ -171,8 +171,6 @@ export const SOCIAL_LINKS: SocialLink[] = [
   { platform: "LinkedIn", url: "https://linkedin.com/in/david-ajaraogu", icon: "Linkedin" },
   { platform: "X/Twitter", url: "https://twitter.com/blockchainwhizy", icon: "Twitter" },
   { platform: "GitHub", url: "https://github.com/Kelajane6", icon: "Github" },
-  { platform: "Instagram", url: "https://ig.me/m/blockchain_whizzy", icon: "Instagram" },
-  { platform: "Facebook", url: "https://m.me/davidanthony", icon: "Facebook" },
   { platform: "WhatsApp", url: "https://wa.me/2347015336065", icon: "MessageCircle" },
   { platform: "Telegram", url: "https://t.me/blockchainwhizzy", icon: "Send" },
 ];
