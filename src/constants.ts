@@ -6,7 +6,7 @@ export const PERSONAL_INFO = {
   roles: ["Frontend Developer", "Graphics Designer", "Blockchain Enthusiast", "IT Technician"],
   about: "I am a multi-disciplinary professional with a passion for building decentralized solutions and crafting visually stunning digital experiences. With a background in Frontend Development and Graphics Design, I bridge the gap between aesthetics and functionality. My journey in the blockchain space has fueled my commitment to the future of Web3, while my technical expertise as an IT Technician ensures a solid foundation for all my digital endeavors.",
   story: "My career is a tapestry of technical exploration and creative expression. From troubleshooting complex hardware issues to designing intuitive user interfaces and exploring the intricacies of smart contracts, I've always been driven by a curiosity for how things work—and how they can be improved. Every milestone, from my first successful deployment to my deep dive into the blockchain ecosystem, represents a step toward mastering the digital landscape.",
-  resume: "#",
+  resume: "./main",
 };
 
 export const PROJECTS: Project[] = [
