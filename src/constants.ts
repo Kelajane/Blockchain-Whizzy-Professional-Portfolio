@@ -6,7 +6,7 @@ export const PERSONAL_INFO = {
   roles: ["Frontend Developer", "Graphics Designer", "Blockchain Enthusiast", "IT Technician"],
   about: "I am a multi-disciplinary professional with a passion for building decentralized solutions and crafting visually stunning digital experiences. With a background in Frontend Development and Graphics Design, I bridge the gap between aesthetics and functionality. My journey in the blockchain space has fueled my commitment to the future of Web3, while my technical expertise as an IT Technician ensures a solid foundation for all my digital endeavors.",
   story: "My career is a tapestry of technical exploration and creative expression. From troubleshooting complex hardware issues to designing intuitive user interfaces and exploring the intricacies of smart contracts, I've always been driven by a curiosity for how things work—and how they can be improved. Every milestone, from my first successful deployment to my deep dive into the blockchain ecosystem, represents a step toward mastering the digital landscape.",
-  resume: "#",
+  resume: "https://drive.google.com/file/d/1xMyZPdNhM8Wh09C-oX3hOW5p8ZoYa9cC/view?usp=sharing",
 };
 
 export const PROJECTS: Project[] = [
@@ -14,7 +14,7 @@ export const PROJECTS: Project[] = [
     id: "1",
     title: "DeFi Dashboard",
     description: "A comprehensive dashboard for tracking decentralized finance assets across multiple chains.",
-    longDescription: "The DeFi Dashboard is a high-performance, real-time application designed to provide users with a unified view of their decentralized finance (DeFi) assets. It aggregates data from various protocols and blockchains, offering insights into portfolio performance, yield farming opportunities, and liquidity pool status.",
+    longDescription: "The DeFi Dashboard is a high-performance, real-time application designed to provide users with a unified view of their decentralized finance (DeFi) assets. It aggregates data from multiple blockchain networks and provides intuitive visualizations for asset management.",
     technologies: ["React", "Web3.js", "Tailwind CSS", "Recharts", "Ethers.js", "GraphQL"],
     challenges: [
       "Integrating data from multiple blockchain networks with varying latency.",
@@ -31,7 +31,7 @@ export const PROJECTS: Project[] = [
     id: "2",
     title: "NFT Marketplace UI",
     description: "A sleek, high-performance marketplace interface for digital collectibles.",
-    longDescription: "This project focuses on creating a premium user experience for NFT collectors and creators. The UI is built with a focus on speed, responsiveness, and visual appeal, incorporating advanced animations and a clean, futuristic aesthetic to match the innovative nature of the NFT space.",
+    longDescription: "This project focuses on creating a premium user experience for NFT collectors and creators. The UI is built with a focus on speed, responsiveness, and visual appeal, incorporating modern design trends and best practices.",
     technologies: ["Next.js", "Framer Motion", "TypeScript", "Tailwind CSS", "IPFS"],
     challenges: [
       "Optimizing image loading and rendering for large NFT collections.",
@@ -48,7 +48,7 @@ export const PROJECTS: Project[] = [
     id: "3",
     title: "Brand Identity Design",
     description: "Full visual identity system for a tech startup, including logo, typography, and color palette.",
-    longDescription: "A complete branding project for a cutting-edge tech startup. The goal was to create a visual identity that conveys innovation, reliability, and a forward-thinking mindset. This included a custom logo design, a carefully selected typography system, and a vibrant, modern color palette.",
+    longDescription: "A complete branding project for a cutting-edge tech startup. The goal was to create a visual identity that conveys innovation, reliability, and a forward-thinking mindset. The project includes comprehensive brand guidelines.",
     technologies: ["Graphics Design", "Branding", "Adobe Illustrator", "Adobe Photoshop", "Figma"],
     challenges: [
       "Creating a logo that is both unique and scalable across different mediums.",
@@ -65,7 +65,7 @@ export const PROJECTS: Project[] = [
     id: "4",
     title: "Crypto Wallet App",
     description: "A secure and intuitive mobile wallet for managing multiple cryptocurrencies.",
-    longDescription: "The Crypto Wallet App is a mobile-first solution designed for security and ease of use. It supports a wide range of cryptocurrencies and features biometric authentication, real-time price tracking, and seamless integration with decentralized exchanges.",
+    longDescription: "The Crypto Wallet App is a mobile-first solution designed for security and ease of use. It supports a wide range of cryptocurrencies and features biometric authentication, real-time market updates, and secure key management.",
     technologies: ["React Native", "Firebase", "Ethers.js", "Biometrics"],
     challenges: [
       "Implementing robust security measures for private key management.",
@@ -82,7 +82,7 @@ export const PROJECTS: Project[] = [
     id: "5",
     title: "Smart Contract Audit Tool",
     description: "An automated tool for identifying vulnerabilities in Solidity smart contracts.",
-    longDescription: "This tool uses static analysis and formal verification techniques to scan Solidity smart contracts for common security pitfalls, such as reentrancy, integer overflow, and unauthorized access. It provides detailed reports and suggestions for remediation.",
+    longDescription: "This tool uses static analysis and formal verification techniques to scan Solidity smart contracts for common security pitfalls, such as reentrancy, integer overflow, and unauthorized access patterns.",
     technologies: ["Python", "Solidity", "Slither", "Mythril"],
     challenges: [
       "Reducing false positives in automated security scans.",
@@ -99,7 +99,7 @@ export const PROJECTS: Project[] = [
     id: "6",
     title: "Professional Portfolio Website",
     description: "A modern, responsive portfolio website showcasing professional achievements and creative works.",
-    longDescription: "A high-performance personal portfolio website built with React and Tailwind CSS. It features smooth animations, a responsive design, and a clean aesthetic to highlight professional experience, skills, and projects effectively.",
+    longDescription: "A high-performance personal portfolio website built with React and Tailwind CSS. It features smooth animations, a responsive design, and a clean aesthetic to highlight professional achievements and creative projects.",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Lucide React"],
     challenges: [
       "Designing a unique and memorable user experience.",
